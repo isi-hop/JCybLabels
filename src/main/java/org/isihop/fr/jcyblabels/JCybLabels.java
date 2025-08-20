@@ -72,7 +72,7 @@ public class JCybLabels
             printername=p.getProperty("printername", "PRINTER ANONYMOUS");
             port=Integer.parseInt(p.getProperty("port", "9100"), 10);
             IP=p.getProperty("IP","172.18.45.100");
-            dbUrl = p.getProperty("dbUrl","jdbc:postgresql://vm299:5432/cyblabels");
+            dbUrl = p.getProperty("dbUrl","jdbc:postgresql://XXXX:5432/cyblabels");
             dbUser =p.getProperty("dbUser","pg");
             dbPasswordEnc = p.getProperty("dbPassword", "ear");
             query = query + p.getProperty("query","SELECT * FROM public.cyblabels");
